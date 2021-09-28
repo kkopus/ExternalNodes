@@ -14,7 +14,7 @@ Using *External Nodes* you will be able to:
 Use the following command to install *Machine Heads External Nodes*:
 
 ```
-pip install mh_en_exec
+pip install mh-en-exec
 ```
 
 *Machine Heads External Nodes* is now installed. Check out the [quickstart](https://mheads.net/external_nodes/en/quickstart.html) to learn how to create a node and start the *External Nodes* server.

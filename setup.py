@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
   name='mh-en-exec',
-  version='1.0.0',
+  version='1.0.1',
   description='Package for executing machine heads external nodes',
   long_description=long_description,
   long_description_content_type="text/markdown",
