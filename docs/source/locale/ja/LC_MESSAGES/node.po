@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Opus
+# This file is distributed under the same license as the Machine Heads
+# External Nodes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Machine Heads External Nodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-08 14:14+0900\n"
+"PO-Revision-Date: 2021-09-08 14:20+0900\n"
+"Last-Translator: \n"
+"Language: ja\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../source/node.md:1
+msgid "Node Base Classes"
+msgstr "ノードベースクラス"
+
+#: mh_en_exec.nodes.node_base.NodeBase:1 of
+msgid ""
+"The NodeBase class is the base class for the nodes To create external node, "
+"need to inherit this class and implement :func:`perform <mh_en_exec.nodes."
+"NodeBase.perform>` function"
+msgstr ""
+"NodeBaseクラスは、ノードの基本クラスです。 外部ノードを作成するには、このクラス"
+"を継承し、 `perform` 関数を実装する必要があります。"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform:1 of
+msgid "This function is called when a node is executed on the Machine Heads side."
+msgstr "この関数は、Machine Heads側でノードが実行される際に呼び出されます。"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform:2 of
+msgid "Input port values will be set as arguments of this function."
+msgstr "入力ポートの値は、この関数の引数として設定されます。"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform:3 of
+msgid "Output port values need to be set as a return values of this function."
+msgstr "この関数の戻り値として、出力ポートの値を設定する必要があります。"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform:4 of
+msgid "Return type:"
+msgstr "リターンタイプ:"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform:5 of
+msgid "In case of data node: `tuple[{output port values}]`"
+msgstr "データノードの場合は `tuple[{出力ポートの値}]`"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform:6 of
+msgid "In case of action node: `bool, tuple[{output port values}]`"
+msgstr "アクションノードの場合は `bool, tuple[{出力ポートの値}]`"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform:7 of
+msgid ""
+"*first value of the action node return values is a bool value. If `True` "
+"`out_on_success` port will be called, if `False` `out_on_failure` port will be "
+"called*"
+msgstr ""
+"*アクションノードの戻り値の最初の値は、bool値です。True の場合は "
+"`out_on_success` ポートが呼ばれ、False の場合は `out_on_failure` ポートが呼ばれ"
+"ます*。"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform of
+msgid "Raises"
+msgstr "レイズ"
+
+#: mh_en_exec.nodes.node_base.NodeBase.perform:9 of
+msgid "In case of function is not overrode"
+msgstr "機能がオーバーロードされていない場合"
+
+#: mh_en_exec.nodes.node_base.ActionNodeBase:1 of
+msgid ""
+"The ActionNodeBase class is the base class for the action nodes To create "
+"external action node, need to inherit this class and implement :func:`perform "
+"<mh_en_exec.nodes.ActionNodeBase.perform>` function"
+msgstr ""
+"NodeBaseクラスは、ノードの基本クラスです。 外部ノードを作成するには、このクラス"
+"を継承し、 `perform` 関数を実装する必要があります。"
+
+#~ msgid ""
+#~ "The ActionNodeBase class is the base class for the action nodes To create "
+#~ "external action node, need to inherit this class and implement :func:"
+#~ "`mh_en_exec.nodes.ActionNodeBase.perform` function"
+#~ msgstr ""
+#~ "ActionNodeBase クラスは、アクションノードの基本クラスです。 外部アクション"
+#~ "ノードを作成するには、このクラスを継承し、 :func:`mh_en_exec.nodes."
+#~ "ActionNodeBase.perform` 関数を実装する必要があります。"

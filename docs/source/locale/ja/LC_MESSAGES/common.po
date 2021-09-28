@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Opus
+# This file is distributed under the same license as the Machine Heads
+# External Nodes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Machine Heads External Nodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-06 10:25+0900\n"
+"PO-Revision-Date: 2021-09-22 16:22+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../source/common.md:1
+msgid "Common"
+msgstr "共通"
+
+#: mh_en_exec.nodes.common.Size:1 of
+msgid ""
+"The Size class defines the size of a two-dimensional object using floating "
+"point precision."
+msgstr "Sizeクラスは、2次元オブジェクトのサイズを浮動小数点精度で定義します。"
+
+#: mh_en_exec.nodes.common.Point mh_en_exec.nodes.common.PointWithUnit
+#: mh_en_exec.nodes.common.PointWithUnit.lerp
+#: mh_en_exec.nodes.common.PointWithUnit.toPx mh_en_exec.nodes.common.Rect
+#: mh_en_exec.nodes.common.Rect.isInside mh_en_exec.nodes.common.RectWithUnit
+#: mh_en_exec.nodes.common.RectWithUnit.isInside
+#: mh_en_exec.nodes.common.RectWithUnit.toPx
+#: mh_en_exec.nodes.common.RectWithUnit.transform mh_en_exec.nodes.common.Size
+#: mh_en_exec.nodes.common.Vector mh_en_exec.nodes.common.Vector.fromPoint
+#: mh_en_exec.nodes.common.Vector.fromPoints
+#: mh_en_exec.nodes.common.VectorWithUnit
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoint
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoints of
+msgid "Parameters"
+msgstr "パラメータ"
+
+#: mh_en_exec.nodes.common.Size:3 of
+msgid "width"
+msgstr "幅"
+
+#: mh_en_exec.nodes.common.Size:5 of
+msgid "height"
+msgstr "高さ"
+
+#: mh_en_exec.nodes.common.Point:1 of
+msgid ""
+"The Point class defines the point in two-dimensional space using floating "
+"point precision."
+msgstr "Pointクラスは、浮動小数点精度で2次元空間内の点を定義します。"
+
+#: mh_en_exec.nodes.common.Point:3 mh_en_exec.nodes.common.PointWithUnit:3
+#: mh_en_exec.nodes.common.Vector:3 mh_en_exec.nodes.common.VectorWithUnit:3 of
+msgid "coordinate on the x-axis"
+msgstr "X軸上の座標"
+
+#: mh_en_exec.nodes.common.Point:5 mh_en_exec.nodes.common.PointWithUnit:5
+#: mh_en_exec.nodes.common.Vector:5 mh_en_exec.nodes.common.VectorWithUnit:5 of
+msgid "coordinate on the y-axis"
+msgstr "Y軸の座標"
+
+#: mh_en_exec.nodes.common.PointWithUnit:1 of
+msgid ""
+"The PointWithUnit class defines the point in two-dimensional space with "
+"particular unit using floating point precision."
+msgstr ""
+"PointWithUnitクラスは、浮動小数点精度で特定の単位を持つ2次元空間の点を定義し"
+"ます。"
+
+#: mh_en_exec.nodes.common.PointWithUnit:7
+#: mh_en_exec.nodes.common.RectWithUnit:11
+#: mh_en_exec.nodes.common.VectorWithUnit:7 of
+msgid "coordinate unit"
+msgstr "ユニット座標"
+
+#: mh_en_exec.nodes.common.PointWithUnit mh_en_exec.nodes.common.RectWithUnit
+#: mh_en_exec.nodes.common.VectorWithUnit of
+msgid "*Coordinate Unit:*"
+msgstr "*座標単位:*"
+
+#: mh_en_exec.nodes.common.PointWithUnit mh_en_exec.nodes.common.RectWithUnit
+#: mh_en_exec.nodes.common.VectorWithUnit of
+msgid "'px' - value in pixels"
+msgstr "'px'- ピクセル単位の値"
+
+#: mh_en_exec.nodes.common.PointWithUnit mh_en_exec.nodes.common.RectWithUnit
+#: mh_en_exec.nodes.common.VectorWithUnit of
+msgid "'hu' - value in height units."
+msgstr "'hu' - 高さ単位の値。"
+
+#: mh_en_exec.nodes.common.PointWithUnit mh_en_exec.nodes.common.RectWithUnit
+#: mh_en_exec.nodes.common.VectorWithUnit of
+msgid "Ex. 1hu is `{height of the screen} / 100`"
+msgstr "Ex. 1hu は `{画面の高さ}' / 100`"
+
+#: mh_en_exec.nodes.common.PointWithUnit mh_en_exec.nodes.common.RectWithUnit
+#: mh_en_exec.nodes.common.VectorWithUnit of
+msgid "'%' - value in percentages."
+msgstr "'%' - パーセンテージでの値。"
+
+#: mh_en_exec.nodes.common.PointWithUnit mh_en_exec.nodes.common.RectWithUnit
+#: mh_en_exec.nodes.common.VectorWithUnit of
+#, python-format
+msgid "Ex. 50% of the x is half of the width of the screen"
+msgstr "Ex. xの50％は画面の幅の半分"
+
+#: mh_en_exec.nodes.common.PointWithUnit.lerp:1 of
+msgid "Linearly interpolates between two points"
+msgstr "2点間を直線的に補間する"
+
+#: mh_en_exec.nodes.common.PointWithUnit.lerp:3 of
+msgid "Start point"
+msgstr "スタート地点"
+
+#: mh_en_exec.nodes.common.PointWithUnit.lerp:5 of
+msgid "End point"
+msgstr "終点"
+
+#: mh_en_exec.nodes.common.PointWithUnit.lerp:7 of
+msgid ""
+"value used to interpolate between `start` and `end`. Range between 0.0 and "
+"1.0"
+msgstr ""
+"start` と `end` の間を補間するために使用される値です。0.0から1.0までの範囲"
+
+#: mh_en_exec.nodes.common.PointWithUnit.toPx:1 of
+msgid "Returns PointWithUnit in pixel units"
+msgstr "PointWithUnitをピクセル単位で返す"
+
+#: mh_en_exec.nodes.common.PointWithUnit.toPx:3
+#: mh_en_exec.nodes.common.RectWithUnit.toPx:3
+#: mh_en_exec.nodes.common.RectWithUnit.transform:5 of
+msgid "Screen size"
+msgstr "画面サイズ"
+
+#: mh_en_exec.nodes.common.PointWithUnit.toPx
+#: mh_en_exec.nodes.common.RectWithUnit.isInside
+#: mh_en_exec.nodes.common.RectWithUnit.toPx
+#: mh_en_exec.nodes.common.RectWithUnit.transform
+#: mh_en_exec.nodes.common.Vector.fromPoint
+#: mh_en_exec.nodes.common.Vector.fromPoints
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoint
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoints of
+msgid "Raises"
+msgstr "レイズ"
+
+#: mh_en_exec.nodes.common.PointWithUnit.toPx:6
+#: mh_en_exec.nodes.common.RectWithUnit.toPx:6 of
+msgid "In case of unknown unit value"
+msgstr "ユニット値が不明の場合"
+
+#: mh_en_exec.nodes.common.PointWithUnit.toPx
+#: mh_en_exec.nodes.common.Rect.center
+#: mh_en_exec.nodes.common.Rect.getAxisSwapped
+#: mh_en_exec.nodes.common.Rect.isInside mh_en_exec.nodes.common.Rect.isValid
+#: mh_en_exec.nodes.common.Rect.size
+#: mh_en_exec.nodes.common.RectWithUnit.center
+#: mh_en_exec.nodes.common.RectWithUnit.getAxisSwapped
+#: mh_en_exec.nodes.common.RectWithUnit.isInside
+#: mh_en_exec.nodes.common.RectWithUnit.isValid
+#: mh_en_exec.nodes.common.RectWithUnit.toPx
+#: mh_en_exec.nodes.common.RectWithUnit.transform
+#: mh_en_exec.nodes.common.Vector.magnitude
+#: mh_en_exec.nodes.common.VectorWithUnit.magnitude of
+msgid "Returns"
+msgstr "リターンズ"
+
+#: mh_en_exec.nodes.common.PointWithUnit.toPx:8 of
+msgid "point in pixel units"
+msgstr "ピクセル単位のポイント"
+
+#: mh_en_exec.nodes.common.PointWithUnit.toPx
+#: mh_en_exec.nodes.common.Rect.center
+#: mh_en_exec.nodes.common.Rect.getAxisSwapped
+#: mh_en_exec.nodes.common.Rect.isInside mh_en_exec.nodes.common.Rect.isValid
+#: mh_en_exec.nodes.common.Rect.size
+#: mh_en_exec.nodes.common.RectWithUnit.center
+#: mh_en_exec.nodes.common.RectWithUnit.getAxisSwapped
+#: mh_en_exec.nodes.common.RectWithUnit.isInside
+#: mh_en_exec.nodes.common.RectWithUnit.isValid
+#: mh_en_exec.nodes.common.RectWithUnit.toPx
+#: mh_en_exec.nodes.common.RectWithUnit.transform
+#: mh_en_exec.nodes.common.Vector.magnitude
+#: mh_en_exec.nodes.common.VectorWithUnit.magnitude of
+msgid "Return type"
+msgstr "リターンタイプ"
+
+#: mh_en_exec.nodes.common.Rect:1 of
+msgid ""
+"The Rect class defines the rectangle shape in two-dimensional space using "
+"floating point precision."
+msgstr "Rectクラスは，浮動小数点精度で2次元空間に長方形を定義します。"
+
+#: mh_en_exec.nodes.common.Rect:3 mh_en_exec.nodes.common.RectWithUnit:3 of
+msgid "leftmost coordinate on the x-axis"
+msgstr "X軸の左端の座標"
+
+#: mh_en_exec.nodes.common.Rect:5 mh_en_exec.nodes.common.RectWithUnit:5 of
+msgid "topmost coordinate on the y-axis"
+msgstr "Y軸上の最上位座標"
+
+#: mh_en_exec.nodes.common.Rect:7 mh_en_exec.nodes.common.RectWithUnit:7 of
+msgid "rightmost coordinate on the x-axis"
+msgstr "X軸の右端の座標"
+
+#: mh_en_exec.nodes.common.Rect:9 mh_en_exec.nodes.common.RectWithUnit:9 of
+msgid "bottommost coordinate on the y-axis"
+msgstr "Y軸の最下段の座標"
+
+#: mh_en_exec.nodes.common.Rect.center:1
+#: mh_en_exec.nodes.common.RectWithUnit.center:1 of
+msgid "Returns rectangle's center point"
+msgstr "矩形の中心点を返す"
+
+#: mh_en_exec.nodes.common.Rect.center:3
+#: mh_en_exec.nodes.common.RectWithUnit.center:3 of
+msgid "rectangle center"
+msgstr "矩形の中心"
+
+#: mh_en_exec.nodes.common.Rect.getAxisSwapped:1
+#: mh_en_exec.nodes.common.RectWithUnit.getAxisSwapped:1 of
+msgid "Returns axis swapped rectangle"
+msgstr "軸が入れ替わった矩形を返す"
+
+#: mh_en_exec.nodes.common.Rect.getAxisSwapped:3
+#: mh_en_exec.nodes.common.RectWithUnit.getAxisSwapped:3 of
+msgid "axis swapped rectangle"
+msgstr "軸が入れ替わった矩形"
+
+#: mh_en_exec.nodes.common.Rect.isInside:1
+#: mh_en_exec.nodes.common.RectWithUnit.isInside:1 of
+msgid "Checks if the point is inside the rectangle"
+msgstr "点が矩形の内側にあるかどうかをチェックする"
+
+#: mh_en_exec.nodes.common.Rect.isInside:3
+#: mh_en_exec.nodes.common.RectWithUnit.isInside:3 of
+msgid "point"
+msgstr "ポイント"
+
+#: mh_en_exec.nodes.common.Rect.isInside:6
+#: mh_en_exec.nodes.common.RectWithUnit.isInside:8 of
+msgid "True if inside and False if outside"
+msgstr "内側ならTrue、外側ならFalse"
+
+#: mh_en_exec.nodes.common.Rect.isValid:1
+#: mh_en_exec.nodes.common.RectWithUnit.isValid:1 of
+msgid "Checks if the rectangle is valid"
+msgstr "矩形が有効であるかどうかのチェック"
+
+#: mh_en_exec.nodes.common.Rect.isValid:3
+#: mh_en_exec.nodes.common.RectWithUnit.isValid:3 of
+msgid "True if valid and False if invalid"
+msgstr "有効な場合はTrue、無効な場合はFalse"
+
+#: mh_en_exec.nodes.common.Rect.size:1 of
+msgid "Returns rectangle size"
+msgstr "矩形のサイズを返す"
+
+#: mh_en_exec.nodes.common.Rect.size:3 of
+msgid "size"
+msgstr "サイズ"
+
+#: mh_en_exec.nodes.common.RectWithUnit:1 of
+msgid ""
+"The RectWithUnit class defines the rectangle shape in two-dimensional space "
+"with particular unit using floating point precision."
+msgstr ""
+"RectWithUnitクラスは、浮動小数点精度を用いて、特定の単位を持つ二次元空間にお"
+"ける矩形の形状を定義します。"
+
+#: mh_en_exec.nodes.common.RectWithUnit.isInside:6 of
+msgid ""
+"In case of unit value of the point is not the same as unit of the rectangle"
+msgstr "点の単位が矩形の単位と一致しない場合"
+
+#: mh_en_exec.nodes.common.RectWithUnit.toPx:1 of
+msgid "Returns RectWithUnit in pixel units"
+msgstr "RectWithUnitをピクセル単位で返す"
+
+#: mh_en_exec.nodes.common.RectWithUnit.toPx:8 of
+msgid "rectangle in pixel units"
+msgstr "ピクセル単位の四角形"
+
+#: mh_en_exec.nodes.common.RectWithUnit.transform:1 of
+msgid "Transforms rectangle to delta"
+msgstr "矩形をデルタ型に変換"
+
+#: mh_en_exec.nodes.common.RectWithUnit.transform:3 of
+msgid "delta rectangle"
+msgstr "デルタ矩形"
+
+#: mh_en_exec.nodes.common.RectWithUnit.transform:8 of
+msgid ""
+"In case of delta is not instance of RectWithUnit or relSize is not set in "
+"case of this rectangle is not in pixel unit"
+msgstr ""
+"deltaがRectWithUnitのインスタンスではない場合，あるいはrelSizeが設定されてい"
+"ない場合，この矩形がピクセル単位ではありません"
+
+#: mh_en_exec.nodes.common.RectWithUnit.transform:10 of
+msgid "transformed rectangle"
+msgstr "変換された四角形"
+
+#: mh_en_exec.nodes.common.Vector:1 of
+msgid ""
+"The Vector class defines the vector in two-dimensional space using floating "
+"point precision."
+msgstr "Vectorクラスは、浮動小数点精度で2次元空間のベクトルを定義します。"
+
+#: mh_en_exec.nodes.common.Vector.fromPoint:1 of
+msgid "Returns Vector converted from point"
+msgstr "点から変換されたベクトルを返す"
+
+#: mh_en_exec.nodes.common.Vector.fromPoint:3
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoint:3 of
+msgid "If the point does not exist"
+msgstr "ポイントが存在しない場合"
+
+#: mh_en_exec.nodes.common.Vector.fromPoint:5
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoint:5 of
+msgid "Point in two-dimensional space"
+msgstr "二次元空間の点"
+
+#: mh_en_exec.nodes.common.Vector.fromPoints:1 of
+msgid "Returns Vector calculated from two points"
+msgstr "戻り値 2点から計算されたベクトル"
+
+#: mh_en_exec.nodes.common.Vector.fromPoints:3 of
+msgid "If origin or point does not exist"
+msgstr "原点やポイントが存在しない場合"
+
+#: mh_en_exec.nodes.common.Vector.fromPoints:5
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoints:5 of
+msgid "Starting point in two-dimensional space"
+msgstr "二次元空間の出発点"
+
+#: mh_en_exec.nodes.common.Vector.fromPoints:7
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoints:7 of
+msgid "Terminal point in two-dimensional space"
+msgstr "二次元空間の終点"
+
+#: mh_en_exec.nodes.common.Vector.magnitude:1
+#: mh_en_exec.nodes.common.VectorWithUnit.magnitude:1 of
+msgid "Returns the length of this vector"
+msgstr "ベクトルの長さを返す"
+
+#: mh_en_exec.nodes.common.Vector.magnitude:3
+#: mh_en_exec.nodes.common.VectorWithUnit.magnitude:3 of
+msgid "length of this vector"
+msgstr "ベクトルの長さ"
+
+#: mh_en_exec.nodes.common.Vector.normalize:1 of
+msgid "Makes this vector have a magnitude of 1.0"
+msgstr "このベクトルの大きさを1.0にする"
+
+#: mh_en_exec.nodes.common.VectorWithUnit:1 of
+msgid ""
+"The VectorWithUnit class defines the vector in two-dimensional space with "
+"particular unit using floating point precision."
+msgstr ""
+"VectorWithUnitクラスは、浮動小数点精度で特定の単位を持つ2次元空間のベクトルを"
+"定義します。"
+
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoint:1 of
+msgid "Returns VectorWithUnit converted from point"
+msgstr "点から変換されたVectorWithUnitを返す"
+
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoints:1 of
+msgid "Returns VectorWithUnit calculated from two points"
+msgstr "2点から算出したVectorWithUnitを返す"
+
+#: mh_en_exec.nodes.common.VectorWithUnit.fromPoints:3 of
+msgid ""
+"If starting point or terminal point does not exist, also if unit of two "
+"points is not same"
+msgstr "始点や終点が存在しない場合、また、2点の単位が同じでない場合"

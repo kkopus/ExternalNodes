@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Opus
+# This file is distributed under the same license as the Machine Heads
+# External Nodes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Machine Heads External Nodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-21 18:23+0900\n"
+"PO-Revision-Date: 2021-09-22 11:28+0900\n"
+"Last-Translator: \n"
+"Language: ja\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../source/ports.md:1
+msgid "Ports"
+msgstr "ポート"
+
+#: ../../source/ports.md:4
+msgid "Node Input Ports"
+msgstr "ノード入力ポート"
+
+#: mh_en_exec.nodes.ports.BooleanNodeInput:1 of
+msgid "Boolean node input port class"
+msgstr "ブール型ノード入力ポートクラス"
+
+#: mh_en_exec.nodes.ActionNodeInput.value:1
+#: mh_en_exec.nodes.ActionNodeOutput.value:1
+#: mh_en_exec.nodes.AnyNodeInput.value:1 mh_en_exec.nodes.AnyNodeOutput.value:1
+#: mh_en_exec.nodes.BooleanNodeInput.value:1
+#: mh_en_exec.nodes.BooleanNodeLocal.value:1
+#: mh_en_exec.nodes.BooleanNodeOutput.value:1
+#: mh_en_exec.nodes.FloatNodeInput.value:1
+#: mh_en_exec.nodes.FloatNodeLocal.value:1
+#: mh_en_exec.nodes.FloatNodeOutput.value:1
+#: mh_en_exec.nodes.ImageNodeInput.value:1
+#: mh_en_exec.nodes.ImageNodeLocal.value:1
+#: mh_en_exec.nodes.ImageNodeOutput.value:1
+#: mh_en_exec.nodes.IntegerNodeInput.value:1
+#: mh_en_exec.nodes.IntegerNodeLocal.value:1
+#: mh_en_exec.nodes.IntegerNodeOutput.value:1
+#: mh_en_exec.nodes.PointNodeInput.value:1
+#: mh_en_exec.nodes.PointNodeLocal.value:1
+#: mh_en_exec.nodes.PointNodeOutput.value:1
+#: mh_en_exec.nodes.RectangleNodeInput.value:1
+#: mh_en_exec.nodes.RectangleNodeLocal.value:1
+#: mh_en_exec.nodes.RectangleNodeOutput.value:1
+#: mh_en_exec.nodes.StringNodeInput.value:1
+#: mh_en_exec.nodes.StringNodeLocal.value:1
+#: mh_en_exec.nodes.StringNodeOutput.value:1
+#: mh_en_exec.nodes.VectorNodeInput.value:1
+#: mh_en_exec.nodes.VectorNodeLocal.value:1
+#: mh_en_exec.nodes.VectorNodeOutput.value:1 of
+msgid "Port value property"
+msgstr "ポート値プロパティ"
+
+#: mh_en_exec.nodes.ActionNodeInput.value
+#: mh_en_exec.nodes.ActionNodeOutput.value mh_en_exec.nodes.AnyNodeInput.value
+#: mh_en_exec.nodes.AnyNodeOutput.value mh_en_exec.nodes.BooleanNodeInput.value
+#: mh_en_exec.nodes.BooleanNodeLocal.value
+#: mh_en_exec.nodes.BooleanNodeOutput.value
+#: mh_en_exec.nodes.FloatNodeInput.value mh_en_exec.nodes.FloatNodeLocal.value
+#: mh_en_exec.nodes.FloatNodeOutput.value mh_en_exec.nodes.ImageNodeInput.value
+#: mh_en_exec.nodes.ImageNodeLocal.value mh_en_exec.nodes.ImageNodeOutput.value
+#: mh_en_exec.nodes.IntegerNodeInput.value
+#: mh_en_exec.nodes.IntegerNodeLocal.value
+#: mh_en_exec.nodes.IntegerNodeOutput.value
+#: mh_en_exec.nodes.PointNodeInput.value mh_en_exec.nodes.PointNodeLocal.value
+#: mh_en_exec.nodes.PointNodeOutput.value
+#: mh_en_exec.nodes.RectangleNodeInput.value
+#: mh_en_exec.nodes.RectangleNodeLocal.value
+#: mh_en_exec.nodes.RectangleNodeOutput.value
+#: mh_en_exec.nodes.StringNodeInput.value
+#: mh_en_exec.nodes.StringNodeLocal.value
+#: mh_en_exec.nodes.StringNodeOutput.value
+#: mh_en_exec.nodes.VectorNodeInput.value
+#: mh_en_exec.nodes.VectorNodeLocal.value
+#: mh_en_exec.nodes.VectorNodeOutput.value of
+msgid "Returns"
+msgstr "リターンズ"
+
+#: mh_en_exec.nodes.ActionNodeInput.value:3
+#: mh_en_exec.nodes.ActionNodeOutput.value:3
+#: mh_en_exec.nodes.AnyNodeInput.value:3 mh_en_exec.nodes.AnyNodeOutput.value:3
+#: mh_en_exec.nodes.BooleanNodeInput.value:3
+#: mh_en_exec.nodes.BooleanNodeLocal.value:3
+#: mh_en_exec.nodes.BooleanNodeOutput.value:3
+#: mh_en_exec.nodes.FloatNodeInput.value:3
+#: mh_en_exec.nodes.FloatNodeLocal.value:3
+#: mh_en_exec.nodes.FloatNodeOutput.value:3
+#: mh_en_exec.nodes.IntegerNodeInput.value:3
+#: mh_en_exec.nodes.IntegerNodeLocal.value:3
+#: mh_en_exec.nodes.IntegerNodeOutput.value:3
+#: mh_en_exec.nodes.StringNodeInput.value:3
+#: mh_en_exec.nodes.StringNodeLocal.value:3
+#: mh_en_exec.nodes.StringNodeOutput.value:3 of
+msgid "value"
+msgstr "値"
+
+#: mh_en_exec.nodes.ActionNodeInput.value
+#: mh_en_exec.nodes.ActionNodeOutput.value mh_en_exec.nodes.AnyNodeInput.value
+#: mh_en_exec.nodes.AnyNodeOutput.value mh_en_exec.nodes.BooleanNodeInput.value
+#: mh_en_exec.nodes.BooleanNodeLocal.value
+#: mh_en_exec.nodes.BooleanNodeOutput.value
+#: mh_en_exec.nodes.FloatNodeInput.value mh_en_exec.nodes.FloatNodeLocal.value
+#: mh_en_exec.nodes.FloatNodeOutput.value mh_en_exec.nodes.ImageNodeInput.value
+#: mh_en_exec.nodes.ImageNodeLocal.value mh_en_exec.nodes.ImageNodeOutput.value
+#: mh_en_exec.nodes.IntegerNodeInput.value
+#: mh_en_exec.nodes.IntegerNodeLocal.value
+#: mh_en_exec.nodes.IntegerNodeOutput.value
+#: mh_en_exec.nodes.PointNodeInput.value mh_en_exec.nodes.PointNodeLocal.value
+#: mh_en_exec.nodes.PointNodeOutput.value
+#: mh_en_exec.nodes.RectangleNodeInput.value
+#: mh_en_exec.nodes.RectangleNodeLocal.value
+#: mh_en_exec.nodes.RectangleNodeOutput.value
+#: mh_en_exec.nodes.StringNodeInput.value
+#: mh_en_exec.nodes.StringNodeLocal.value
+#: mh_en_exec.nodes.StringNodeOutput.value
+#: mh_en_exec.nodes.VectorNodeInput.value
+#: mh_en_exec.nodes.VectorNodeLocal.value
+#: mh_en_exec.nodes.VectorNodeOutput.value of
+msgid "Return type"
+msgstr "リターンタイプ"
+
+#: mh_en_exec.nodes.ports.IntegerNodeInput:1 of
+msgid "Integer node input port class"
+msgstr "整数のノード入力ポートクラス"
+
+#: mh_en_exec.nodes.ports.FloatNodeInput:1 of
+msgid "Float node input port class"
+msgstr "フロートノード入力ポートクラス"
+
+#: mh_en_exec.nodes.ports.ImageNodeInput:1 of
+msgid "Image node input port class"
+msgstr "画像ノード入力ポートクラス"
+
+#: mh_en_exec.nodes.ImageNodeInput.value:3
+#: mh_en_exec.nodes.ImageNodeOutput.value:3 of
+msgid "image id"
+msgstr "画像ID"
+
+#: mh_en_exec.nodes.ports.RectangleNodeInput:1 of
+msgid "Rectangle node input port class"
+msgstr "矩形ノード入力ポートクラス"
+
+#: mh_en_exec.nodes.RectangleNodeInput.value:3
+#: mh_en_exec.nodes.RectangleNodeLocal.value:3
+#: mh_en_exec.nodes.RectangleNodeOutput.value:3 of
+msgid "rectangle"
+msgstr "矩形"
+
+#: mh_en_exec.nodes.ports.PointNodeInput:1 of
+msgid "Point node input port class"
+msgstr "ポイントノード入力ポートクラス"
+
+#: mh_en_exec.nodes.PointNodeInput.value:3
+#: mh_en_exec.nodes.PointNodeLocal.value:3
+#: mh_en_exec.nodes.PointNodeOutput.value:3 of
+msgid "point"
+msgstr "ポイント"
+
+#: mh_en_exec.nodes.ports.AnyNodeInput:1 of
+msgid "Any node input port class"
+msgstr "任意のノードの入力ポートクラス"
+
+#: mh_en_exec.nodes.ports.ActionNodeInput:1 of
+msgid "Action node input port class"
+msgstr "アクションノードの入力ポートクラス"
+
+#: mh_en_exec.nodes.ports.StringNodeInput:1 of
+msgid "String node input port class"
+msgstr "文字列ノード入力ポートクラス"
+
+#: mh_en_exec.nodes.ports.VectorNodeInput:1 of
+msgid "Vector node input port class"
+msgstr "ベクトルノード入力ポートクラス"
+
+#: mh_en_exec.nodes.VectorNodeInput.value:3
+#: mh_en_exec.nodes.VectorNodeLocal.value:3
+#: mh_en_exec.nodes.VectorNodeOutput.value:3 of
+msgid "vector"
+msgstr "ベクター"
+
+#: ../../source/ports.md:30
+msgid "Node Local Ports"
+msgstr "ノード ローカルポート"
+
+#: mh_en_exec.nodes.ports.BooleanNodeLocal:1 of
+msgid "Boolean node local port class"
+msgstr "ブール型ノードローカルポートクラス"
+
+#: mh_en_exec.nodes.ports.IntegerNodeLocal:1 of
+msgid "Integer node local port class"
+msgstr "Integer ノードローカルポートクラス"
+
+#: mh_en_exec.nodes.ports.FloatNodeLocal:1 of
+msgid "Float node local port class"
+msgstr "フロート型ノードローカルポートクラス"
+
+#: mh_en_exec.nodes.ports.ImageNodeLocal:1 of
+msgid "Image node local port class"
+msgstr "イメージノード ローカルポートクラス"
+
+#: mh_en_exec.nodes.ImageNodeLocal.value:3 of
+msgid "OpenCV image"
+msgstr "OpenCV画像"
+
+#: mh_en_exec.nodes.ports.RectangleNodeLocal:1 of
+msgid "Rectangle node local port class"
+msgstr "矩形ノードのローカルポートクラス"
+
+#: mh_en_exec.nodes.ports.PointNodeLocal:1 of
+msgid "Point node local port class"
+msgstr "ポイントノードローカルポートクラス"
+
+#: mh_en_exec.nodes.ports.StringNodeLocal:1 of
+msgid "String node local port class"
+msgstr "文字列ノードローカルポートクラス"
+
+#: mh_en_exec.nodes.ports.VectorNodeLocal:1 of
+msgid "Vector node local port class"
+msgstr "ベクターノードのローカルポートクラス"
+
+#: ../../source/ports.md:52
+msgid "Node Output Ports"
+msgstr "ノードの出力ポート"
+
+#: mh_en_exec.nodes.ports.BooleanNodeOutput:1 of
+msgid "Boolean node output port class"
+msgstr "ブール型ノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.IntegerNodeOutput:1 of
+msgid "Integer node output port class"
+msgstr "整数のノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.FloatNodeOutput:1 of
+msgid "Float node output port class"
+msgstr "フロート型ノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.ImageNodeOutput:1 of
+msgid "Image node output port class"
+msgstr "画像ノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.RectangleNodeOutput:1 of
+msgid "Rectangle node output port class"
+msgstr "矩形ノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.PointNodeOutput:1 of
+msgid "Point node output port class"
+msgstr "ポイントノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.AnyNodeOutput:1 of
+msgid "Any node output port class"
+msgstr "任意のノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.ActionNodeOutput:1 of
+msgid "Action node output port class"
+msgstr "アクションノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.StringNodeOutput:1 of
+msgid "String node output port class"
+msgstr "文字列ノード出力ポートクラス"
+
+#: mh_en_exec.nodes.ports.VectorNodeOutput:1 of
+msgid "Vector node output port class"
+msgstr "ベクトルノード出力ポートクラス"
+
+#~ msgid "In case you want to get image object of the local image port"
+#~ msgstr "ローカルイメージポートのイメージオブジェクトを取得したい場合"
+
+#~ msgid "use this function :func:`mh_en_exec.resource.ResourceManager.getResource`"
+#~ msgstr "`ResourceManager`の`getResource`関数を使用します。"

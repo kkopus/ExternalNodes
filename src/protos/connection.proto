@@ -1,0 +1,114 @@
+syntax = "proto3";
+
+package connection;
+
+service ConnectionGrpc {
+  rpc GetNodeStructures(Empty) returns (GetNodeStructuresResponse) {}
+  rpc GetCurrentExistingNodes(Empty) returns (GetCurrentExistingNodesResponse) {}
+  rpc CreateNodeInstance(CreateNodeInstanceRequest) returns (CreateNodeInstanceResponse) {}
+  rpc UpdatePortValues(UpdatePortValuesRequest) returns (UpdatePortValuesResponse) {}
+  rpc ExecuteNode(ExecuteNodeRequest) returns (ExecuteNodeResponse) {}
+  rpc RemoveNode(RemoveNodeRequest) returns (RemoveNodeResponse) {}
+  rpc SendResource(SendResourceRequest) returns (SendResourceResponse) {}
+  rpc GetResource(GetResourceRequest) returns (GetResourceResponse) {}
+  rpc ReleaseResource(ReleaseResourceRequest) returns (ReleaseResourceResponse) {}
+}
+
+message Empty {}
+
+message GetNodeStructuresResponse {
+  string serverId = 1;
+  string jsonData = 2;
+}
+
+message GetCurrentExistingNodesResponse {
+  string serverId = 1;
+  string jsonData = 2;
+}
+
+message CreateNodeInstanceRequest {
+  string id = 1;
+  string nodePath = 2;
+  string name = 3;
+}
+
+message CreateNodeInstanceResponse {
+  string serverId = 1;
+  bool result = 2;
+  string errorMessage = 3;
+}
+
+message UpdatePortValuesRequest {
+  string id = 1;
+  string portValuesJson = 2;
+}
+
+message UpdatePortValuesResponse {
+  string serverId = 1;
+  bool result = 2;
+  string errorMessage = 3;
+}
+
+message ExecuteNodeRequest {
+  string id = 1;
+  string portName = 2;
+  string inputPortValuesJson = 3;
+}
+
+message ExecuteNodeResponse {
+  string serverId = 1;
+  bool result = 2;
+  string errorMessage = 3;
+  string localPortValuesJson = 4;
+  string outputPortValuesJson = 5;
+}
+
+message RemoveNodeRequest {
+  string id = 1;
+}
+
+message RemoveNodeResponse {
+  string serverId = 1;
+  bool result = 2;
+  string errorMessage = 3;
+}
+
+message ResourceMetaData {
+  string id = 1;
+  string type = 2;
+}
+
+message ResourceData {
+  bytes content = 1;
+}
+
+message SendResourceRequest {
+  ResourceMetaData metadata = 1;
+  ResourceData data = 2;
+}
+
+message SendResourceResponse {
+  string serverId = 1;
+  bool result = 2;
+}
+
+message GetResourceRequest {
+  string id = 1;
+  bool remove = 2;
+}
+
+message GetResourceResponse {
+  string serverId = 1;
+  ResourceMetaData metadata = 2;
+  ResourceData data = 3;
+}
+
+message ReleaseResourceRequest {
+  string id = 1;
+}
+
+message ReleaseResourceResponse {
+  string serverId = 1;
+  bool result = 2;
+  string errorMessage = 3;
+}

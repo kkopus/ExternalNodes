@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Opus
+# This file is distributed under the same license as the Machine Heads
+# External Nodes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Machine Heads External Nodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-21 18:23+0900\n"
+"PO-Revision-Date: 2021-09-22 16:19+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Language: ja\n"
+
+#: ../../source/views.md:1
+msgid "Port Views"
+msgstr "ポートビュー"
+
+#: mh_en_exec.nodes.views.NodeFloatView:1 of
+msgid "The class for UI representation of a port that contains float value"
+msgstr "フロート値を含むポートのUI表現のためのクラス"
+
+#: mh_en_exec.nodes.views.NodeCheckboxView:5
+#: mh_en_exec.nodes.views.NodeComboboxView:5
+#: mh_en_exec.nodes.views.NodeFloatView:5 mh_en_exec.nodes.views.NodeImageView:5
+#: mh_en_exec.nodes.views.NodeIntegerView:5
+#: mh_en_exec.nodes.views.NodePairComboView:5
+#: mh_en_exec.nodes.views.NodePointView:5 mh_en_exec.nodes.views.NodeRectView:5
+#: mh_en_exec.nodes.views.NodeStringView:5
+#: mh_en_exec.nodes.views.NodeTextBoxView:5
+#: mh_en_exec.nodes.views.NodeVectorView:5 of
+msgid "*node that contains this view*"
+msgstr "*このビューを含むノード*"
+
+#: mh_en_exec.nodes.views.NodeCheckboxView
+#: mh_en_exec.nodes.views.NodeComboboxView mh_en_exec.nodes.views.NodeFloatView
+#: mh_en_exec.nodes.views.NodeImageView mh_en_exec.nodes.views.NodeIntegerView
+#: mh_en_exec.nodes.views.NodePairComboView mh_en_exec.nodes.views.NodePointView
+#: mh_en_exec.nodes.views.NodeRectView mh_en_exec.nodes.views.NodeStringView
+#: mh_en_exec.nodes.views.NodeTextBoxView mh_en_exec.nodes.views.NodeVectorView
+#: of
+msgid "Parameters"
+msgstr "パラメータ"
+
+#: mh_en_exec.nodes.views.NodeFloatView:7 of
+msgid ""
+"The name of the float port for which this object will be the UI representation"
+msgstr "このオブジェクトがUI表現となるフロートポートの名前"
+
+#: mh_en_exec.nodes.views.NodeCheckboxView:9
+#: mh_en_exec.nodes.views.NodeComboboxView:9
+#: mh_en_exec.nodes.views.NodeFloatView:9 mh_en_exec.nodes.views.NodeImageView:9
+#: mh_en_exec.nodes.views.NodeIntegerView:9
+#: mh_en_exec.nodes.views.NodePairComboView:9
+#: mh_en_exec.nodes.views.NodePointView:9 mh_en_exec.nodes.views.NodeRectView:9
+#: mh_en_exec.nodes.views.NodeStringView:9
+#: mh_en_exec.nodes.views.NodeTextBoxView:9
+#: mh_en_exec.nodes.views.NodeVectorView:9 of
+msgid "The text that will be displayed on the node"
+msgstr "ノードに表示されるテキスト"
+
+#: mh_en_exec.nodes.views.NodeCheckboxView:1 of
+msgid "The class for UI representation of a port that contains boolean value"
+msgstr "ブール値を含むポートのUI表現を行うクラス"
+
+#: mh_en_exec.nodes.views.NodeCheckboxView:7 of
+msgid ""
+"The name of the boolean port for which this object will be the UI "
+"representation"
+msgstr "このオブジェクトがUI表現となるブールポートの名前"
+
+#: mh_en_exec.nodes.views.NodeComboboxView:1
+#: mh_en_exec.nodes.views.NodePairComboView:1 of
+msgid ""
+"The class for the UI representation of the port and gives the ability to "
+"choose from several predefined values"
+msgstr ""
+"ポートのUI表現のためのクラスで、いくつかの定義済みの値から選択することができま"
+"す。"
+
+#: mh_en_exec.nodes.views.NodeComboboxView:7
+#: mh_en_exec.nodes.views.NodePairComboView:7 of
+msgid "The name of the port for which this object will be the UI representation"
+msgstr "このオブジェクトがUI表現となるポートの名前"
+
+#: mh_en_exec.nodes.views.NodeComboboxView:11 of
+msgid "list of the values that will be diplayed on the node"
+msgstr "ノードに表示される値のリスト"
+
+#: mh_en_exec.nodes.views.NodeImageView:1 of
+msgid "The class for UI representation of a port that contains image value"
+msgstr "イメージ値を含むポートのUI表現のためのクラス"
+
+#: mh_en_exec.nodes.views.NodeImageView:7 of
+msgid ""
+"The name of the image port for which this object will be the UI representation"
+msgstr "このオブジェクトがUI表現となるイメージポートの名前"
+
+#: mh_en_exec.nodes.views.NodeIntegerView:1 of
+msgid "The class for UI representation of a port that contains integer value"
+msgstr "整数値を含むポートのUI表現のためのクラス"
+
+#: mh_en_exec.nodes.views.NodeIntegerView:7 of
+msgid ""
+"The name of the integer port for which this object will be the UI "
+"representation"
+msgstr "このオブジェクトがUI表現となる整数ポートの名前"
+
+#: mh_en_exec.nodes.views.NodeIntegerView:11 of
+msgid "The flag that determines whether the value can be changed by user"
+msgstr "ユーザーによる値の変更が可能かどうかを判断するフラグ"
+
+#: mh_en_exec.nodes.views.NodeIntegerView:13 of
+msgid "Maximum possible value"
+msgstr "最大値"
+
+#: mh_en_exec.nodes.views.NodeIntegerView:15 of
+msgid "Minimum possible value"
+msgstr "最小値"
+
+#: mh_en_exec.nodes.views.NodePairComboView:11 of
+msgid ""
+"dict of the values that will be displayed on the node. The key of the dict "
+"will be set to port as value and the value of the dict will be displayed on "
+"the node."
+msgstr ""
+"ノードに表示される値のdictです。dictのキーにはport as valueが設定され、dictの"
+"値がノードに表示されます。"
+
+#: mh_en_exec.nodes.views.NodePointView:1 of
+msgid ""
+"The class for UI representation of a port that contains :class:`PointWithUnit "
+"<mh_en_exec.nodes.common.PointWithUnit>` value"
+msgstr ""
+"`mh_en_exec.nodes.common.PointWithUnit` の値を含むポートのUI表現のためのクラス"
+"です。"
+
+#: mh_en_exec.nodes.views.NodePointView:7 of
+msgid ""
+"The name of the point port for which this object will be the UI representation"
+msgstr "このオブジェクトがUI表現となるポイントポートの名前"
+
+#: mh_en_exec.nodes.views.NodeRectView:1 of
+msgid ""
+"The class for UI representation of a port that contains :class:`RectWithUnit "
+"<mh_en_exec.nodes.common.RectWithUnit>` value"
+msgstr ""
+"`mh_en_exec.nodes.common.RectWithUnit` の値を含むポートのUI表現のためのクラス"
+"です。"
+
+#: mh_en_exec.nodes.views.NodeRectView:7 of
+msgid ""
+"The name of the rect port for which this object will be the UI representation"
+msgstr "このオブジェクトがUI表現となる矩形ポートの名前"
+
+#: mh_en_exec.nodes.views.NodeStringView:1 of
+msgid "The class for UI representation of a port that contains string value"
+msgstr "文字列値を含むポートのUI表現クラス"
+
+#: mh_en_exec.nodes.views.NodeStringView:7
+#: mh_en_exec.nodes.views.NodeTextBoxView:7 of
+msgid ""
+"The name of the string port for which this object will be the UI "
+"representation"
+msgstr "このオブジェクトがUI表現となる文字列ポートの名前"
+
+#: mh_en_exec.nodes.views.NodeTextBoxView:1 of
+msgid ""
+"The class for UI representation of a port that contains multiline string value"
+msgstr "複数行の文字列値を含むポートのUI表現を行うクラス"
+
+#: mh_en_exec.nodes.views.NodeVectorView:1 of
+msgid ""
+"The class for UI representation of a port that contains :class:"
+"`VectorWithUnit <mh_en_exec.nodes.common.VectorWithUnit>` value"
+msgstr ""
+"`mh_en_exec.nodes.common.VectorWithUnit` の値を含むポートのUI表現のためのクラ"
+"スです。"
+
+#: mh_en_exec.nodes.views.NodeVectorView:7 of
+msgid ""
+"The name of the vector port for which this object will be the UI "
+"representation"
+msgstr "このオブジェクトがUI表現となるベクターポートの名前"

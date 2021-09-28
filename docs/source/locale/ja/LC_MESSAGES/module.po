@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Opus
+# This file is distributed under the same license as the Machine Heads
+# External Nodes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Machine Heads External Nodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-06 10:25+0900\n"
+"PO-Revision-Date: 2021-09-07 16:36+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 3.0\n"
+
+#: ../../source/module.md:1
+msgid "mh_en_exec module package"
+msgstr "mh_en_execモジュールパッケージ"
+
+#: mh_en_exec.exec:1 of
+msgid "Start external node server and wait for termination"
+msgstr "外部ノードサーバを起動し、終了を待つ"
+
+#: mh_en_exec.exec mh_en_exec.start of
+msgid "Parameters"
+msgstr "パラメータ"
+
+#: mh_en_exec.exec:3 mh_en_exec.start:3 of
+msgid "list of node classes"
+msgstr "ノードクラスのリスト"
+
+#: mh_en_exec.exec:5 mh_en_exec.start:5 of
+msgid "server port number"
+msgstr "サーバーのポート番号"
+
+#: mh_en_exec.start:1 of
+msgid "Start external node server"
+msgstr "外部ノードサーバの起動"

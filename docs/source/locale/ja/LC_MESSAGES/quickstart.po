@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Opus
+# This file is distributed under the same license as the Machine Heads
+# External Nodes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Machine Heads External Nodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-21 18:23+0900\n"
+"PO-Revision-Date: 2021-09-22 16:22+0900\n"
+"Last-Translator: \n"
+"Language: ja\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../source/quickstart.md:1
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../source/quickstart.md:3
+msgid "Running Server"
+msgstr "ランニングサーバー"
+
+#: ../../source/quickstart.md:5
+msgid "Let's first figure out how to start the external node server."
+msgstr ""
+"まずは、エクスターナル・ノード・サーバーを起動する方法を考えてみましょう。"
+
+#: ../../source/quickstart.md:7
+msgid "A minimal server running script looks something like this:"
+msgstr "最小限のサーバー実行スクリプトは次のようなものです。"
+
+#: ../../source/quickstart.md:20
+msgid "So what did that code do?"
+msgstr "では、そのコードは何をしたのか？"
+
+#: ../../source/quickstart.md:22
+msgid ""
+"First we imported the Machine Heads External Node module {mod}`mh_en_exec "
+"<mh_en_exec>` as `mh`."
+msgstr ""
+"まず Machine Heads External Node モジュール {mod}`mh_en_exec <mh_en_exec>` を "
+"`mh` としてインポートしました。"
+
+#: ../../source/quickstart.md:23
+msgid ""
+"Next we imported custom node class called `FooNode`. For now, let's skip the "
+"details of creating the class, but if you want details see \"[Creating node "
+"class](#creating-node-class)\""
+msgstr ""
+"次に、`FooNode`というカスタムノードクラスをインポートします。今のところ、クラ"
+"ス作成の詳細は省略しますが、詳細を知りたい方は \"[ノードクラスの作成]"
+"(#creating-node-class)\" をご覧ください。"
+
+#: ../../source/quickstart.md:24
+msgid ""
+"Then we use {func}`exec() <mh_en_exec.exec>` function to execute server and "
+"wait until ends. As an argument we send list of the node classes."
+msgstr ""
+"そして、{func}`exec() <mh_en_exec.exec>`関数を使ってサーバーを実行し、終了する"
+"まで待ちます。引数として、ノードクラスのリストを送ります。"
+
+#: ../../source/quickstart.md:25
+msgid ""
+"Also we trying to catch `KeyboardInterrupt` exception in order to be able "
+"stop external nodes execution by pressing `Ctrl+C`."
+msgstr ""
+"また、`Ctrl+C`を押すことで外部ノードの実行を停止できるように、"
+"`KeyboardInterrupt`例外のキャッチを試みています。"
+
+#: ../../source/quickstart.md:27
+msgid "Now using this code we can run the external node server."
+msgstr "このコードを使って、外部のノードサーバを動かすことができます。"
+
+#: ../../source/quickstart.md:29
+msgid "Creating node class"
+msgstr "ノードクラスの作成"
+
+#: ../../source/quickstart.md:31
+msgid "Next, let's see how to create your own node."
+msgstr "次に、独自のノードを作成する方法を見てみましょう。"
+
+#: ../../source/quickstart.md:33
+msgid ""
+"First of all, need to decide the type of the node.<br> Machine Heads have two "
+"type of nodes: {class}`action node <mh_en_exec.nodes.ActionNodeBase>` and "
+"{class}`data node <mh_en_exec.nodes.NodeBase>`.<br> The difference is that an "
+"{class}`action node <mh_en_exec.nodes.ActionNodeBase>` provides some "
+"operation when executed, while a {class}`data node <mh_en_exec.nodes."
+"NodeBase>` provides data that can be used on an {class}`action node "
+"<mh_en_exec.nodes.ActionNodeBase>`<br> In terms of node structure, an {class}"
+"`action node <mh_en_exec.nodes.ActionNodeBase>` has built-in \"*in_action*\" "
+"input port and \"*out_on_success*\" and \"*out_on_failure*\" output ports, "
+"and a data node has no built-in ports.<br>"
+msgstr ""
+"まず、ノードの種類を決める必要があります。<br> マシンヘッドには2種類のノードが"
+"あります:{class}`action node <mh_en_exec.nodes.ActionNodeBase>`と{class}`data "
+"node <mh_en_exec.nodes.NodeBase>`です。<br> その違いは、{class}`action node "
+"<mh_en_exec.nodes.ActionNodeBase>`は実行されると何らかの動作を提供するのに対"
+"し、一方、{class}`data node <mh_en_exec.nodes.NodeBase>`は、{class}`action "
+"node <mh_en_exec.nodes.ActionNodeBase>`で使用できるデータを提供します。<br> "
+"ノードの構造としては、{class}`action node <mh_en_exec. nodes.ActionNodeBase>`"
+"には、\"*in_action*\"の入力ポートと \"*out_on_success*\"と \"*out_on_failure*"
+"\"の出力ポートが組み込まれており、データノードにはポートが組み込まれていませ"
+"ん。"
+
+#: ../../source/quickstart.md:38
+msgid "Creating data node"
+msgstr "データノードの作成"
+
+#: ../../source/quickstart.md:40
+msgid "First, let's create simple data node."
+msgstr "まず、シンプルなデータノードを作成します。"
+
+#: ../../source/quickstart.md:42
+msgid ""
+"In order to do so, need to create class that will be inherited from {class}"
+"`NodeBase <mh_en_exec.nodes.NodeBase>`. It will be something like this."
+msgstr ""
+"そのためには、{class}`NodeBase <mh_en_exec.nodes.NodeBase>`を継承したクラスを"
+"作成する必要があります。これは次のようなものです。"
+
+#: ../../source/quickstart.md:54
+msgid ""
+"Next, need to add ports. For this `SimpleDataNode` class, let's create one "
+"string output port and name it as `text`.<br> To do so need to import {class}"
+"`StringNodeOutput <mh_en_exec.nodes.ports.StringNodeOutput>`"
+msgstr ""
+"次に、ポートを追加する必要があります。この`SimpleDataNode`クラスでは、文字列の"
+"出力ポートを一つ作り、それを`text`と名付けよう。<br> そのためには、{class}"
+"`StringNodeOutput <mh_en_exec.nodes.ports.StringNodeOutput>`をインポートする必"
+"要があります。"
+
+#: ../../source/quickstart.md:60
+msgid ""
+"And add new class variable called `text`, an instance of the {class}"
+"`StringNodeOutput <mh_en_exec.nodes.ports.StringNodeOutput>` class"
+msgstr ""
+"そして、{class}`StringNodeOutput <mh_en_exec.nodes.ports.StringNodeOutput>`ク"
+"ラスのインスタンスである`text`という新しいクラス変数を追加します。"
+
+#: ../../source/quickstart.md:66
+msgid ""
+"And, finally let's override {func}`perform <mh_en_exec.nodes.NodeBase."
+"perform>` function to be able return some value on the node execution."
+msgstr ""
+"そして、最後に{func}`perform <mh_en_exec.nodes.NodeBase.perform>`関数をオー"
+"バーライドして、ノード実行時に何らかの値を返せるようにしましょう。"
+
+#: ../../source/quickstart.md:74
+msgid ""
+"In this case `SimpleDataNode` will give 'Hello World' string value through "
+"the `text` output port when executed."
+msgstr ""
+"この場合、`SimpleDataNode`が実行されると、`text`出力ポートを通じて'Hello "
+"World'という文字列が出力されます。"
+
+#: ../../source/quickstart.md:76
+msgid "Final class code will be like this:"
+msgstr "最終的なクラスコードはこのようになります:"
+
+#: ../../source/quickstart.md:97
+msgid "On \"Machine Heads\" node will be look like this:"
+msgstr "\"Machine Heads\"ノードでは、以下のように表示されます。"
+
+#: ../../source/quickstart.md:99
+msgid "![Simple Data Node Image](img/nodes/simple_data_node.png)"
+msgstr "![シンプルデータノードイメージ](img/nodes/simple_data_node.png)"
+
+#: ../../source/quickstart.md:99
+msgid "Simple Data Node Image"
+msgstr "シンプルなデータノードのイメージ"
+
+#: ../../source/quickstart.md:101
+msgid "Creating data node with view"
+msgstr "ビューを持っているデータノードの作成"
+
+#: ../../source/quickstart.md:103
+msgid ""
+"In the previous example, we made the port value hardcoded, but it is possible "
+"to make the port value set from the \"Machine Heads\" user interface. To do "
+"so, you need to use a [port view](views.md)."
+msgstr ""
+"前述の例では、ポート値をハードコード化しましたが、\"Machine Heads\"のユーザー"
+"インターフェースからポート値の設定を行うことも可能です。 そのためには、[port "
+"view](views.md)を使用する必要があります。"
+
+#: ../../source/quickstart.md:105
+msgid ""
+"Let's try adding a port view for the `text` port of our previous example "
+"class `SimpleDataNode`. To do this, need to add a new variable named "
+"`text_view`, an instance of the {class}`NodeStringView <mh_en_exec.nodes."
+"views.NodeStringView>`, and link it to our `text` variable. To link, need to "
+"pass the name of the variable to which we want to link as the first argument "
+"of the {class}`NodeStringView <mh_en_exec.nodes.views.NodeStringView>` "
+"constructor."
+msgstr ""
+"先ほどのサンプルクラス `SimpleDataNode` の `text` ポートにポートビューを追加し"
+"てみましょう。そのためには、{class}`NodeStringView <mh_en_exec.nodes.views."
+"NodeStringView>` のインスタンスである `text_view` という名前の新しい変数を追加"
+"し、それを `text` 変数にリンクさせる必要があります。リンクさせるには、{class}"
+"`NodeStringView <mh_en_exec.nodes.views.NodeStringView>` のコンストラクタの第"
+"一引数に、リンクさせたい変数の名前を渡す必要があります。"
+
+#: ../../source/quickstart.md:107
+msgid ""
+"But first, need to import {class}`NodeStringView <mh_en_exec.nodes.views."
+"NodeStringView>` class."
+msgstr ""
+"その前に、{class}`NodeStringView <mh_en_exec.nodes.views.NodeStringView>` クラ"
+"スをインポートする必要があります。"
+
+#: ../../source/quickstart.md:114
+msgid "And only after that need to add our `text_view` variable."
+msgstr "そして、その後に、`text_view`変数を追加する必要があります。"
+
+#: ../../source/quickstart.md:124
+msgid "After that, node will look like this:"
+msgstr "\"Machine Heads\" では、このアクションノードは以下のようになります:"
+
+#: ../../source/quickstart.md:126
+msgid "![Simple Data Node With View](img/nodes/simple_data_node_with_view.png)"
+msgstr ""
+"![シンプルデータノードイメージ](img/nodes/simple_data_node_with_view.png)"
+
+#: ../../source/quickstart.md:126
+msgid "Simple Data Node With View"
+msgstr "シンプルなデータノードのイメージ"
+
+#: ../../source/quickstart.md:128
+msgid "Final code will be like this:"
+msgstr "そのため、最終的なコードは以下のようになります:"
+
+#: ../../source/quickstart.md
+msgid ""
+"The `perform` function has been removed since it is no longer necessary to "
+"return the port value through python code."
+msgstr ""
+"pythonコードでポートの値を返す必要がなくなったため、`perform`関数が削除されま"
+"した。"
+
+#: ../../source/quickstart.md
+msgid ""
+"If the function `perform` is not in the node class, then when the node is "
+"executed, the value of the ports will be returned as is."
+msgstr ""
+"もし，関数`perform`がノードクラスになければ，ノードが実行されたときに，ポート"
+"の値がそのまま返されることになります。"
+
+#: ../../source/quickstart.md:157
+msgid "Creating action node"
+msgstr "アクションノードの作成"
+
+#: ../../source/quickstart.md:159
+msgid "Next, let's create simple action node."
+msgstr "次に、シンプルなアクションノードを作りましょう。"
+
+#: ../../source/quickstart.md:161
+msgid ""
+"This time we will try to make the node add up the value of the input ports."
+"<br> The formula for the operation will be as follows: `a + b = c`"
+msgstr ""
+"今度は、ノードが入力ポートの値を加算するようにしてみましょう。<br> 演算式は次"
+"のようになります: `a + b = c`"
+
+#: ../../source/quickstart.md:164
+msgid ""
+"As the last time, we start by creating a class, but this time we need to "
+"inherit {class}`ActionNodeBase <mh_en_exec.nodes.ActionNodeBase>` class."
+msgstr ""
+"前回と同様にクラスの作成から始めますが、今回は{class}`ActionNodeBase "
+"<mh_en_exec.nodes.ActionNodeBase>`クラスを継承する必要があります。"
+
+#: ../../source/quickstart.md:176
+msgid ""
+"Next, create ports. To do so, first, import {class}`IntegerNodeInput "
+"<mh_en_exec.nodes.ports.IntegerNodeInput>` and {class}`IntegerNodeOutput "
+"<mh_en_exec.nodes.ports.IntegerNodeOutput>`"
+msgstr ""
+"次にポートを作成します。そのためには、まず{class}`IntegerNodeInput "
+"<mh_en_exec.nodes.ports.IntegerNodeInput>`と{class}`IntegerNodeOutput "
+"<mh_en_exec.nodes.ports.IntegerNodeOutput>`をインポートします。"
+
+#: ../../source/quickstart.md:185
+msgid "and create input and output ports."
+msgstr "と入力ポートと出力ポートを作成します。"
+
+#: ../../source/quickstart.md:196
+msgid ""
+"And as always need to override {func}`perform <mh_en_exec.nodes.NodeBase."
+"perform>` function to make some operations, but this time we will receive "
+"input port values as arguments of the {func}`perform <mh_en_exec.nodes."
+"NodeBase.perform>` function and return values will be not just tuple of "
+"output values, but also result of node execution."
+msgstr ""
+"そして、いつものように{func}`perform <mh_en_exec.nodes.NodeBase.perform>`関数"
+"をオーバーライドして何らかの操作を行う必要がありますが、今回は{func}`perform "
+"<mh_en_exec.nodes.NodeBase.perform>`関数の引数として入力ポートの値を受け取り、"
+"戻り値は単なる出力値のタプルではなく、ノードの実行結果を受け取ります。"
+
+#: ../../source/quickstart.md:204
+msgid "So final code will be like this:"
+msgstr "そのため、最終的なコードは以下のようになります:"
+
+#: ../../source/quickstart.md:231
+msgid "On \"Machine Heads\" this action node will be look like this:"
+msgstr "\"Machine Heads\" では、このアクションノードは以下のようになります:"
+
+#: ../../source/quickstart.md:233
+msgid "![Simple Action Node Image](img/nodes/simple_action_node.png)"
+msgstr "![シンプルアクションノード画像](img/nodes/simple_action_node.png)"
+
+#: ../../source/quickstart.md:233
+msgid "Simple Action Node Image"
+msgstr "シンプルなアクションノードのイメージ"

@@ -1,0 +1,9 @@
+__pycache__
+*/__pycache__
+.vscode
+env
+dist
+build
+src/mh_en_exec.egg-info
+mh_en_exec.egg-info
+docs/build

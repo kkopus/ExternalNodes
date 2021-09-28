@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Opus
+# This file is distributed under the same license as the Machine Heads
+# External Nodes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Machine Heads External Nodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-06 10:25+0900\n"
+"PO-Revision-Date: 2021-09-07 17:07+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../source/index.md:27
+msgid "Contents"
+msgstr "内容"
+
+#: ../../source/index.md:1
+msgid "Welcome to Machine Heads External Nodes's documentation!"
+msgstr "Machine Heads External Nodesのドキュメントへようこそ！"
+
+#: ../../source/index.md:3
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: ../../source/index.md:5
+msgid ""
+"**Machine Heads External Nodes** is a python module for creating your own "
+"nodes for use on *Machine Heads*. Using *External Nodes* you will be able "
+"to:"
+msgstr ""
+"**Machine Heads External Nodes**は、*Machine Heads*で使用する独自のノード"
+"を作成するためのPythonモジュールです。*External Nodes*を使用すると以下のこ"
+"とが可能になります。"
+
+#: ../../source/index.md:7
+msgid "Create your own nodes"
+msgstr "独自のノードを作成"
+
+#: ../../source/index.md:8
+msgid "Receive data (including images) from *Machine Heads* nodes"
+msgstr "*Machine Heads*ノードからのデータ（画像を含む）の受信"
+
+#: ../../source/index.md:9
+msgid "Send data (including images) to *Machine Heads* nodes"
+msgstr "*Machine Heads*ノードへのデータ（画像を含む）の送信"
+
+#: ../../source/index.md:10
+msgid "Run any python code on *Machine Heads* test sequence"
+msgstr "任意のPythonコードを*Machine Heads*テストシーケンス上で実行します。"
+
+#: ../../source/index.md:12
+msgid "Python Support"
+msgstr "Pythonサポート"
+
+#: ../../source/index.md:14
+msgid "*Machine Heads External Nodes* supports Python 3.6 and newer."
+msgstr ""
+"*Machine Heads External Nodes*はPython 3.6以降をサポートしています。"
+
+#: ../../source/index.md:16
+msgid "Installation"
+msgstr "インストール"
+
+#: ../../source/index.md:18
+msgid "Use the following command to install *Machine Heads External Nodes*:"
+msgstr ""
+"以下のコマンドで、*Machine Heads External Nodes*をインストールします。"
+
+#: ../../source/index.md:24
+msgid ""
+"*Machine Heads External Nodes* is now installed. Check out the "
+"[quickstart](quickstart) to learn how to create a node and start the "
+"*External Nodes* server."
+msgstr ""
+"*Machine Heads External Nodes*がインストールされました。ノードを作成し、"
+"*External Nodes*サーバーを起動する方法については、[クイックスタート]"
+"(quickstart)をチェックしてください。"
+
+#: ../../source/index.md:41
+msgid "Indices and tables"
+msgstr "インデックスとテーブル"
+
+#: ../../source/index.md:43
+msgid "{ref}`genindex`"
+msgstr ""
+
+#: ../../source/index.md:44
+msgid "{ref}`modindex`"
+msgstr ""
+
+#: ../../source/index.md:45
+msgid "{ref}`search`"
+msgstr ""
